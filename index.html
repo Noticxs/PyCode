@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyCode - Learn to Code</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="topbar">
+        <div class="logo">
+            <h1>PyCode</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="actions">
+            <button id="theme-toggle" aria-label="Toggle Theme">
+                <span id="theme-icon">🌞</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>PyCode - Learn to code</h1>
+            <button id="get-started">Get Started</button>
+        </header>
+
+        <!-- Blank section for spacing -->
+        <div class="spacer"></div>
+
+        <section class="content">
+            <div class="our-aim">
+                <h2>Our Aim</h2>
+                <div class="aim-section">
+                    <article>
+                        <h3>Teaching Kids</h3>
+                        <p>We want to teach kids the delicate art of coding, whether that is as a hobby or to help them out with their GCSEs.</p>
+                    </article>
+                    <article>
+                        <h3>Teaching Adults</h3>
+                        <p>Adults also sometimes need help! We also aim to help adults to work on their coding skills, and reteach them anything they may have forgotten through skill fade.</p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="graph-section">
+                <h2>Our Progress</h2>
+                <canvas id="progress-graph" width="600" height="400"></canvas>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Get Started Today</h2>
+            <p>Are you a GCSE student? At University? Starting a project in IT? Or maybe you want to find a new hobby? Well, you’re in the right place!</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 PyCode. All rights reserved.</p>
+    </footer>
+    
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
