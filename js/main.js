@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     datasets: [
       {
         label: 'Progress',
-        data: [10, 20, 30, 40, 50],
+        data: [10, 90, 20, 60, 10],
         backgroundColor: 'rgba(0, 123, 255, 0.5)',
         borderColor: 'rgba(0, 123, 255, 1)',
         borderWidth: 2,
